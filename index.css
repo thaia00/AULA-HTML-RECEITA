@@ -1,0 +1,84 @@
+
+body {
+    background-color: #f4ece1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+
+.receita-container {
+    max-width: 650px;
+    margin: 0 auto; /
+    background-color: #ffffff;
+    padding: 30px;
+    border: 2px solid #dcdcdc; 
+    border-radius: 12px;
+}
+
+
+
+h1 {
+    color: #b3395b;
+    text-align: center; 
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+
+h2 {
+    color: #e07a5f;
+    font-size: 22px;
+    border-bottom: 2px solid #e07a5f;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+
+.imagem-receita {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto 2px auto; 
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+
+.informacoes-extras {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fdf0ed;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.informacoes-extras p {
+    margin: 0;
+}
+
+
+.ingredientes-secao {
+    background-color: #fff9e6;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border-left: 5px solid #f4a261;
+}
+
+
+p, li {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333333;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
